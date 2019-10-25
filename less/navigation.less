@@ -1,1 +1,31 @@
 // Navigation code here
+
+.navbar {
+    .flexbox(column, space-between);
+    padding: 1.5%;
+    background-color: @nav-bg;
+
+
+    h1 {
+        font-size: 3.6rem;
+        align-self: center;
+        margin-bottom: 1%;
+
+    }
+
+    nav {
+        .flexbox(row, space-evenly);
+        width: 500px;
+
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: @ebony-clay;
+        }
+    }
+}
+
+.header-img {
+    width: 100%;
+    border-radius: 5px;
+}
