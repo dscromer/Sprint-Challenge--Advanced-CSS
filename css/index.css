@@ -165,7 +165,10 @@ p {
   flex-direction: column;
   justify-content: space-between;
   padding: 1.5%;
-  background-color: #F6F6F6;
+  background-color: rgba(246, 246, 246, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .navbar {
@@ -211,6 +214,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 100px;
 }
 .home .intro h2 {
   padding: 15px;
